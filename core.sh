@@ -25,6 +25,6 @@ done
 #find -type f | xargs chmod 644 2> /dev/null  ; find -type d | xargs chmod 755 2> /dev/null ; chmod 750 . -c 2> /dev/null ; echo "Permissions corrected"
 echo $(php ~/wp-cli.phar core verify-checksums)
 #Removewp-cli
-rm -rf ~/wp-cli.phar  ~/.wp-cli/
+rm -rf ~/wp-cli*
 fi
 exit 0
